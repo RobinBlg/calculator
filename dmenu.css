@@ -1,0 +1,37 @@
+.navbar{
+    background-color: rgb(9, 149, 243);
+    padding: 1% 7%;
+    text-align: center;
+}
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+}
+.navbar a:hover{
+    background-color:rgb(86, 173, 231);
+    border-radius: 5px;
+}
+.content a:hover{
+    background-color: rgb(86, 173, 231);
+}
+.continer{
+    display: inline;
+    position: relative;
+}
+.content{
+    position:absolute;
+    background-color:rgb(9, 149, 243) ;
+    top: 30px;
+    right: 0px;
+    text-align: left;
+    display: none;
+}
+.content a{
+    display: block;
+}
+.continer:hover .content{
+    display: block;
+    border-radius: 5px;
+}
